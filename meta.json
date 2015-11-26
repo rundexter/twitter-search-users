@@ -4,23 +4,42 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "q",
+            "title":"Query"
+        },
+        {
+          "id": "page",
+          "title":"page"
+        },
+        {
+          "id": "count",
+          "title":"From"
+        },
+        {
+          "id": "include_entities",
+          "title":"include_entities"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
-        {
-            "id": "from",
-            "title":"From"
-        }
-      */
+      {
+        "id": "screen_name",
+        "title":"screen_name"
+      },
+      {
+        "id": "url",
+        "title":"url"
+      },
+      {
+        "id": "urls",
+        "title":"urls"
+      },
+      {
+        "id": "hashtags",
+        "title":"hashtags"
+      }
     ],
-    "title": "Twitter Search Users" /* Required.A display name for the module */
+    /* Required.A display name for the module */
+    "title": "Twitter Search Users"
 }
